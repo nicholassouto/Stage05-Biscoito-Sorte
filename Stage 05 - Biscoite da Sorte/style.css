@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361, #bb00ff);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+}
+
+.hide {
+  display: none;
+}
+
+/* box 1 */
+
+.box1 {
+  height: 42.4rem;
+  width: 42.8rem;
+  background: #ffffff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+  margin: 23.9rem auto 31.9rem;
+}
+
+#box1 {
+  display: grid;
+  height: 31.2rem;
+  width: 30rem;
+  text-align: center;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  margin-left: 2.084rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-family: "Montserrat", sans-serif;
+  color: #34355b;
+}
+
+#box1 p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 1.4rem;
+  padding-bottom: 2rem;
+
+  color: #34355b;
+}
+
+#fortuneCookie:hover {
+  cursor: pointer;
+  animation: shake 0.1s;
+  animation-iteration-count: infinite;
+}
+
+/* box 2 */
+
+.box2 {
+  height: 56.4rem;
+  width: 42.8rem;
+  background: #ffffff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+  margin: 16.9rem auto 24.9rem;
+}
+
+#box2 {
+  display: grid;
+  height: 46.8rem;
+  width: 30rem;
+  text-align: center;
+  padding: 4.8em 6.4rem 4.8rem 6.4rem;
+  position: relative;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-family: "Montserrat", sans-serif;
+  color: #34355b;
+  align-items: center;
+  margin: auto 0.15rem;
+  padding-bottom: 1.7rem;
+}
+
+#box2 p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  position: absolute;
+  top: 32rem;
+  left: 10.7rem;
+
+
+  color: #000000;
+  background: #e4edf1;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(85, 85, 85, 0.5);
+  animation: result 3s forwards;
+  
+}
+
+.box2 img {
+  padding-top: 16.013rem;
+  padding-bottom: 5.934rem;
+}
+
+.box2 button {
+  width: 17.4rem;
+  height: 5.2rem;
+  background: #ff9500;
+  border-radius: 0.4rem;
+
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box2 button:hover {
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 0.09rem;
+  }
+  50% {
+    margin-left: 0;
+  }
+  75% {
+    margin-left: -0.09rem;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes result {
+  0% {
+    scale: 1%;
+    transform: translateY(0rem);
+  }
+  100% {
+    scale: 100%;
+    transform: translateY(-20rem);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
